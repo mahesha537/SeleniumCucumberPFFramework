@@ -1,0 +1,4 @@
+echo
+cd E:\Doccuments\Selenium\SeleniumCucumber\src\main\resources\BrowserServers
+java -Dwebdriver.chrome.driver=E:\Doccuments\Selenium\SeleniumCucumber\src\main\resources\BrowserServers\chromedriver.exe -Dwebdriver.edge.driver=E:\Doccuments\Selenium\SeleniumCucumber\src\main\resources\BrowserServers\msedgedriver.exe -Dwebdriver.ie.driver=E:\Doccuments\Selenium\SeleniumCucumber\src\main\resources\BrowserServers\IEDriverServer.exe -jar selenium-server-standalone-3.141.59.jar -role webdriver -hub http://172.19.176.1:4445/grid/register/ -browser browserName="chrome",maxInstances=6,platform="WINDOWS", -browser browserName="firefox",platform="WINDOWS" -browser browserName="internet explorer",platform="WINDOWS" -browser browserName="EDGE",platform="WINDOWS" -maxSession 50 -port 5556
+pause

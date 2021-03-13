@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.637">
+<testcase classname="Google search" name="Open Google" time="0.299">
+<system-out><![CDATA[Given I open Google Homepage on "Chrome" Browser............................passed
+Then I landed on the Google page............................................passed
+And Search box is availabe to search........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

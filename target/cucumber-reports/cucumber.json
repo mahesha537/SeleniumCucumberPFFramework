@@ -1,0 +1,66 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-20T06:53:36.450Z",
+        "line": 3,
+        "name": "Open Google",
+        "description": "",
+        "id": "google-search;open-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 165000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open Google Homepage on \"Chrome\" Browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitions.googleSearchSteps.iOpenGoogleHomepageOnBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I landed on the Google page",
+            "match": {
+              "location": "StepDefinitions.googleSearchSteps.iLandedOnTheGooglePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search box is availabe to search",
+            "match": {
+              "location": "StepDefinitions.googleSearchSteps.searchBoxIsAvailabeToSearch()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Google search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/AppFeatures/search.feature",
+    "tags": []
+  }
+]
